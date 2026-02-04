@@ -1,0 +1,224 @@
+# ============================================
+# Python
+# ============================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff
+.ruff_cache/
+
+# ============================================
+# Environment & Secrets
+# ============================================
+
+# Environment files (keep .env.example)
+.env
+.env.local
+.env.*.local
+environments/dev/.env
+environments/test/.env
+environments/prod/.env
+
+# Service account keys - NEVER commit these
+*.json
+!package.json
+!tsconfig.json
+service-account*.json
+*-credentials.json
+*-key.json
+
+# ============================================
+# GCP / Google Cloud
+# ============================================
+
+# Application default credentials
+application_default_credentials.json
+
+# GCP service account keys
+gcp-key.json
+gcp-credentials.json
+
+# ============================================
+# Terraform
+# ============================================
+
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Sensitive variable files
+*.tfvars
+!*.tfvars.example
+terraform/environments/*/*.tfvars
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform lock file (optional - uncomment if not tracking)
+# .terraform.lock.hcl
+
+# ============================================
+# Data Files
+# ============================================
+
+# Raw and processed data
+data/raw/*
+data/processed/*
+data/embeddings/*
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/embeddings/.gitkeep
+
+# Large files
+*.csv
+*.parquet
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Medical imaging formats
+*.dcm
+*.dicom
+*.nii
+*.nii.gz
+
+# ============================================
+# IDE & Editors
+# ============================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============================================
+# Logs & Temp Files
+# ============================================
+
+# Logs
+logs/
+*.log
+
+# Temp files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ============================================
+# ML / Model Artifacts
+# ============================================
+
+# Model checkpoints
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.keras
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Weights & Biases
+wandb/
